@@ -3,7 +3,7 @@
 Smart Attendance System is the way to modernized the existing method of marking attendance on register. It helps to reduce complexity of management. Smart Attendance System not only provide record of attendance of student, it uses Machine Learning technique to identify person facial details to mark attendance on database and it can also perform statistical analysis of student data and provide recommendation to student. It is smart because it provide attendance record to student, teacher and admin in digitalize ways.
 
 ## Note: We have OpenCV version of this project also-
-In OpenCV version we used OpenCV to tarin the model but due to less accuracy in reall world implementation we used tensorflow.
+In OpenCV version we used OpenCV to train the model but due to less accuracy in real world implementation we used tensorflow.
 If you want to just explore OpenCV version then just [click here](https://github.com/Dipeshpal/Smart-Attendance-System)
 
 ### What this project is all about?
