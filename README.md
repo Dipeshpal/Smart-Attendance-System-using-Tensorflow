@@ -1,6 +1,10 @@
-# Toto-Smart-Attendance-System
+# Smart-Attendance-System
 
 Smart Attendance System is the way to modernized the existing method of marking attendance on register. It helps to reduce complexity of management. Smart Attendance System not only provide record of attendance of student, it uses Machine Learning technique to identify person facial details to mark attendance on database and it can also perform statistical analysis of student data and provide recommendation to student. It is smart because it provide attendance record to student, teacher and admin in digitalize ways.
+
+## Note: We have OpenCV version of this project also-
+In OpenCV version we used OpenCV to tarin the model but due to less accuracy in reall world implementation we used tensorflow.
+If you want to just explore OpenCV version then just [click here](https://github.com/Dipeshpal/Smart-Attendance-System)
 
 ### What this project is all about?
  This project is all about attendance management sysetm in digitilize ways by using Facial Recognition with the help of Machine Learning.
@@ -20,7 +24,8 @@ Install following (You can install latest versions)
 
 * Django==2.1.7
 * django-pagedown==1.0.6
-* numpy==1.14.5
+* tensorflow==1.13.1
+* numpy==1.16.3
 * opencv-contrib-python==4.0.0.21
 * opencv-python==3.4.0.14
 * Pillow==5.4.1
@@ -53,7 +58,7 @@ It will start server in your local  machine. Now just hit your local server ip p
     
 You may need to create superuser to explore all functionality.
 
-If you want to know backend of OpenCv used in this project then just [click here](https://github.com/Dipeshpal/OpenCV-Face-Recognition/edit/master/README.md)
+If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
     
 
 # Features of Smart Attendance System-
@@ -68,11 +73,12 @@ If you want to know backend of OpenCv used in this project then just [click here
 1. Python
 2. Machine Learning
 3. Django
-4. OpenCV
-5. Sklearn
-6. Numpy
-7. Sqlite
-8. HTML, CSS, JavaScripts, Bootstrap, Jquery
+4. Tensorflow
+5. OpenCV
+6. Sklearn
+7. Numpy
+8. Sqlite
+9. HTML, CSS, JavaScripts, Bootstrap, Jquery
 
 # Any questions?
 Feel free to contact me
