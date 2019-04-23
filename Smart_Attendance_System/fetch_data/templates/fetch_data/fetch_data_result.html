@@ -1,0 +1,22 @@
+{% extends 'base_layout2.html' %}
+
+{% block fetch_data %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <h1>Fetched Data Result-</h1>
+        <!--{% for key, value in data.items %}-->
+          <!--<li>{{ key }} : {{ value }}</li>-->
+        <!--{% endfor %}-->
+
+         {% if data %}
+            <!--{{ data.keys }}-->
+            {% for i in data %}
+                <p><b>Enrollment Number: {{ enrollment_no }}</b></p>
+                <p>Name: {{ name }}</p>
+                <p>Total Days: {{ total_days }}</p>
+                <p>Total Present Days: {{ total_present_days }}</p>
+                <p>Percentage: {{ percentage }}</p>
+            {% endfor %}
+         {% endif %}
+
+{% endblock %}

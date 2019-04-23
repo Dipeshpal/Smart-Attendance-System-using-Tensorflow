@@ -1,0 +1,17 @@
+{% extends 'base_layout.html' %}
+
+{% block title %}<title>SAS - Edit_Profile</title>{% endblock %}
+
+{% block profileli %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <h1>Edit Profile</h1>
+    <hr>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        {{ p_form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+    <b><p>Change Password: <a href="/accounts/change_password/">Click Here</a></p></b>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends 'base_layout2.html' %}
+
+{% block content %}
+    <!--{% if user.is_authenticated%}-->
+        <!--<a type="submit" class="site-form nav-link" href="edit">Update</a>-->
+        <!--<a class="nav-link" href="delete">Delete</a>-->
+    <!--{% endif %}-->
+
+    {% if user.is_authenticated%}
+        {% if user.is_staff %}
+        <ul>
+              <li>
+                    <a class="nav-link" href="edit">Update</a>
+                    <a class="nav-link" href="delete">Delete</a>
+              </li>
+        </ul>
+        {% endif %}
+    {% endif %}
+
+    <div class="article-detail">
+        <img class="article-image" src="{{ article.thumb.url }}"/>
+        <h2>{{ article.title }}</h2>
+        <div class="article content-markdown">
+            <p>{{ article.body }}</p>
+        </div>
+            <p>{{ article.date }}</p>
+    </div>
+{% endblock %}

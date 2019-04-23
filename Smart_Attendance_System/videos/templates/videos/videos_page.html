@@ -1,0 +1,20 @@
+{% extends 'base_layout2.html' %}
+
+{% block videosli %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <div id="youmax"></div>
+
+     <script>
+		$('#youmax').youmax({
+			apiKey:'AIzaSyAlhAqP5RS7Gxwg_0r_rh9jOv_5WfaJgXw',
+			youTubeChannelURL:"https://www.youtube.com/channel/UCGEoRAK92fUk2kY3kSJMR_Q",
+
+			youTubePlaylistURL:"https://www.youtube.com/channel/UCGEoRAK92fUk2kY3kSJMR_Q/playlists",
+			youmaxDefaultTab:"UPLOADS",
+			youmaxColumns:4,
+			showVideoInLightbox:true,
+			maxResults:20,
+		});
+	 </script>
+{% endblock %}

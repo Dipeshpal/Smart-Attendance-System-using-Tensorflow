@@ -1,0 +1,121 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.business-header {
+  height: 50vh;
+  min-height: 300px;
+  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.card {
+  height: 100%;
+}
+
+
+
+.site-form{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #252526;
+    padding: auto;
+}
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.helptext, helptext ul{
+    margin: 0 auto 10px;
+    color: #252526;
+    font-size: 0.9em;
+    display: block;
+}
+.signup-text{
+    text-align: center;
+    color: #39393a;
+}
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+}
+.errorlist{
+    padding: 0;
+}
+.site-form input[type=submit]{
+    background: #00dba0;
+    border: 0;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 4px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 480px) {
+    .site-form{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px solid #252526;
+    padding: 2px;
+}
+.site-form input, .site-form textarea{
+    display: block;
+    margin: 5px 0 0 0;
+    padding: 5px;
+    width: 100%;
+}
+
+.helptext, helptext ul{
+    margin: 0 auto 10px;
+    color: #252526;
+    font-size: 0.9em;
+    display: block;
+}
+.signup-text{
+    text-align: center;
+    color: #39393a;
+}
+.errorlist li{
+    padding: 10px;
+    list-style-type: none;
+    border: 1px solid #ff5722;
+    color: #ff5722;
+    margin: 10px 0;
+}
+.errorlist{
+    padding: 0;
+}
+.site-form input[type=submit]{
+    background: #00dba0;
+    border: 0;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 4px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+

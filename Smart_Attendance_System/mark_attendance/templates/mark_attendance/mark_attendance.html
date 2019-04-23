@@ -1,0 +1,21 @@
+{% extends 'base_layout2.html' %}
+
+{% block mark_attendance %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <h1>Mark Attendance by Submit Photo</h1>
+    <p><b>Upload your Image to mark your attendance</b></p>
+    <div class="create-article">
+        <form class="site-form" action="{% url 'mark_attendance:mark_attendance' %}" method="post" enctype="multipart/form-data">
+            <h2>Submit Your Image File (Only .png or .jpg)</h2>
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Create">
+        </form>
+    </div>
+    <hr>
+    <div class="create-article">
+        <h1>Mark Attendance by Camera</h1>
+        <a style="color: #3B5998" href="{% url 'mark_attendance:camera_attendance' %}">Click Here to start the camera</a>
+    </div>
+{% endblock %}

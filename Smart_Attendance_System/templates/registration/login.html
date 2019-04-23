@@ -1,0 +1,19 @@
+{% extends 'base_layout2.html' %}
+
+{% block title %}<title>SAS - Login</title>{% endblock %}
+
+{% block loginli %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <form class="site-form" method="post">
+        <h1 class="centerall">Log in</h1>
+        {% csrf_token %}
+        {{ form.as_p }}
+        {% if request.GET.next %}
+            <input type="hidden" name="next" value="{{ request.GET.next }}">
+        {% endif %}
+        <input type="submit" value="Login">
+        <p><a href="{% url 'password_reset' %}">Reset Password</a></p>
+    </form>
+
+{% endblock %}

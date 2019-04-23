@@ -1,0 +1,42 @@
+{% extends 'base_layout.html' %}
+
+{% block homeli %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <h1>Latest News and Articles-</h1>
+        <div class="container">
+            {% for article in articles %}
+                <article class="media content-section">
+                    <div class="media-body">
+                        <div class="article-metadata">
+                            <a class="mr-2" href="{% url 'home:detail' slug=article.slug %}">{{ article.author }}</a>
+                            <small class="text-muted">{{ article.date | date:"F d, Y" }}</small>
+                        </div>
+                        <h2><a id="teal_heading" class="article-title" href="{% url 'home:detail' slug=article.slug %}">{{ article.title }}</a></h2>
+                        <p class="article-content content-markdown">{{ article.snippet }}</p>
+                    </div>
+                </article>
+            {% endfor %}
+
+            <nav aria-label="...">
+                <ul class="pagination">
+                    <li class="page-item disabled">
+                        <span class="page-link">
+                            {% if articles.has_previous %}
+                                <li class="page-item"><a class="page-link" href="?page=1">&laquo; first</a></li>
+                                <li class="page-item"><a class="page-link" href="?page={{ articles.previous_page_number }}">previous</a></li>
+                            {% endif %}
+
+                            <span class="current">
+                                <li class="page-item active"><a class="page-link">Page {{ articles.number }} of {{ articles.paginator.num_pages }}.</a></li>
+                            </span>
+
+                            {% if articles.has_next %}
+                                <li class="page-item"><a class="page-link" href="?page={{ articles.next_page_number }}">next</a></li>
+                                <li class="page-item"><a class="page-link" href="?page={{ articles.paginator.num_pages }}">last &raquo;</a></li>
+                            {% endif %}
+                        </span>
+                </ul>
+            </nav>
+        </div>
+{% endblock %}

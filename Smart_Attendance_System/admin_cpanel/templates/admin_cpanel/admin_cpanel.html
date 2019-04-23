@@ -1,0 +1,17 @@
+{% extends 'base_layout2.html' %}
+
+{% block admin_cpanel %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <h1>CPanel</h1>
+    <h4 style="color: #212529">In Cpanel only Admin can submit .xlsx(excel) file for Training</h4>
+    <h5 style="color: #212529">Once you upload file you can start Training of dataset from next page</h5>
+    <div class="create-article">
+        <form class="site-form" action="{% url 'admin_cpanel:admin_cpanel' %}" method="post" enctype="multipart/form-data">
+            <h2 style="color: red">Submit Your File (file must be .xlsx)</h2>
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Create">
+        </form>
+    </div>
+{% endblock %}

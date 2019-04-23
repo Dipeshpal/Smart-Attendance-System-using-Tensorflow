@@ -1,0 +1,29 @@
+{% extends 'base_layout2.html' %}
+
+{% block title %}<title>SAS - Profile</title>{% endblock %}
+
+{% block profileli %} class="nav-item active" {% endblock %}
+
+{% block content %}
+    <div class="content-section">
+        <h1>Profile</h1>
+        <hr>
+        <div class="media">
+            <img class="round-circle account-img" src="/media/profile_pics/defaultprofile.jpg">
+            <div class="media-body">
+                <h2 class="account-heading">User Name: {{ user }}</h2>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <p style="color: teal;"><b>Wants to be author for our website?</b></p>
+    <p>Fill this form: <a href="/accounts/apply/">Click here</a></p>
+    <hr>
+    <div class="profile">
+        <p>First Name: {{ user.first_name}}</p>
+        <p>Last Name: {{ user.last_name }}</p>
+        <p>Email: {{ user.email }}</p>
+    </div>
+    <b><p>Edit Profile<a href="/accounts/edit_profile/">Click here</a></p></b>
+    <b><p>Change Password: <a href="/accounts/change_password/">Click Here</a></p></b>
+{% endblock %}

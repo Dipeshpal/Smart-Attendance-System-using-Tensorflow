@@ -1,0 +1,1 @@
+Put video file in same folder and then run split.py

@@ -1,0 +1,172 @@
+body {
+  background: #fafafa;
+  color: #333333;
+  margin-top: 5rem;
+}
+.wmd-panel{
+    margin-left:0%;
+    margin-right:0%;
+    width: auto;
+    min-width: auto;
+}
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+#teal_heading {
+  color: #17cfd6;
+  text-align: center;
+}
+
+#text_about_heading{
+    color: #161616;
+    text-align: center;
+    font-family: Palatino Linotype, serif;
+}
+
+.radius{
+  border-radius: 50%;
+}
+
+.block_content_baseLayout2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: #444444;
+}
+
+ul {
+  margin: 0;
+}
+
+.bg-steel {
+  background-color: #5f788a;
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: #ffffff;
+  padding: 10px 20px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.article-title {
+  color: #444444;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3
+}
+
+.article-metadata a:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0;
+}
+
+.articles{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+}
+
+
+.article{
+    padding: 2%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    postion: relative;
+}
+
+.article-detail{
+    padding: 2%;
+}
+
+.article-image{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.profile{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5%;
+    padding: 1%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    postion: relative;
+}
+
+
+
+
+
+

@@ -1,0 +1,20 @@
+{% extends 'base_layout2.html' %}
+
+
+{% block articleCreateli %} class="nav-item active" {% endblock %}
+
+
+{% block head_extra %}
+{{ form.media }}
+{% endblock head_extra %}
+
+{% block content %}
+    <div class="create-article">
+        <form class="site-form" action="{% url 'home:create' %}" method="post" enctype="multipart/form-data">
+            <h2>Create your article</h2>
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" value="Create">
+        </form>
+    </div>
+{% endblock %}
