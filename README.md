@@ -114,7 +114,18 @@ You can click potos of face and upload it to website manually (If you upload sin
           <img src="https://i.ibb.co/ssy30mC/Screenshot-33.png" alt="Image" width="750px" height="350px" />
    </p>
 
-If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
+
+#### How to check attendance-
+Just go to Check Attendance" page and enter roll number to check attendance. If attendance makrked then it will show result.
+   <p align="center">
+          <img src="https://i.ibb.co/MRFMwmR/Screenshot-34.png" alt="Image" width="750px" height="350px" />
+   </p>
+   <p align="center">
+          <img src="https://i.ibb.co/tqm1z9m/Screenshot-35.png" alt="Image" width="750px" height="350px" />
+   </p>
+   
+
+## If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
     
 
 # Features of Smart Attendance System-
