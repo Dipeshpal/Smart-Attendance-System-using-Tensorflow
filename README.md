@@ -62,11 +62,12 @@ You may need to create superuser to explore all functionality.
 To train your own dataset or faces you need to upload excel sheet in this website. [You can subl=mit data in various ways but because we don't want to use any physical hardware to submit data or don't want to spent money on anything thats why we will submit excel file to train the model or create our own dataset]
 1. Just run the project and now login as admin (you need to create superuser first).
 2. Go to cpanel in website and upload excel sheet.
-![Cpanel](https://i.ibb.co/fx4VsnZ/Screenshot-28.png)
+   ![Cpanel](https://i.ibb.co/WkMd3jY/m-Screenshot.png)
 
 3. How to create excel sheet?
  
    3.1 <b>Upload some videos to google drive and get links of all the videos (permission: anyone with the link)</b>
+   
       <p>Upload Videos-</p>
       <p align="center">
           <img src="https://i.ibb.co/z85q9M2/Screenshot-29.png" alt="Image" width="750px" height="350px" />
