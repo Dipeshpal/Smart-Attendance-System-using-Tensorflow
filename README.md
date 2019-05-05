@@ -58,51 +58,61 @@ It will start server in your local  machine. Now just hit your local server ip p
     
 You may need to create superuser to explore all functionality.
 
-##### How to create your own dataset for image training?
+#### How to create your own dataset for image training?
 To train your own dataset or faces you need to upload excel sheet in this website. [You can subl=mit data in various ways but because we don't want to use any physical hardware to submit data or don't want to spent money on anything thats why we will submit excel file to train the model or create our own dataset]
-1. Just run the project and now login as admin (you need to create superuser first).
-2. Go to cpanel in website and upload excel sheet.
-   ![Cpanel](https://i.ibb.co/WkMd3jY/m-Screenshot.png)
+1. <b>Just run the project and now login as admin (you need to create superuser first).</b>
+2. <b/>Go to cpanel in website and upload excel sheet.</b>
+   
+   <p align="center">Cpanel-</p>
+      <p align="center">
+          <img src="(https://i.ibb.co/WkMd3jY/m-Screenshot.png" alt="Image" width="750px" height="350px" />
+      </p>
 
-3. How to create excel sheet?
+
+3. <b>How to create excel sheet?</b>
  
    3.1 <b>Upload some videos to google drive and get links of all the videos (permission: anyone with the link)</b>
    
-      <p>Upload Videos-</p>
+      <p align="center">Upload Videos-</p>
       <p align="center">
           <img src="https://i.ibb.co/z85q9M2/Screenshot-29.png" alt="Image" width="750px" height="350px" />
       </p>
-      <p align="center">Videos Screenshot</p>
-
-      <p>Set Permission-</p>
+      
+      <p align="center">Set Permission-</p>
       <p align="center">
           <img src="https://i.ibb.co/2Kf48g0/Screenshot-30.png" alt="Image" width="750px" height="350px" />
       </p>
-      <p align="center">Permission Screenshot</p>
   
-      <p>Copy links of videos-</p>
+      <p align="center">Copy links of videos-</p>
       <p align="center">
           <img src="https://i.ibb.co/XJFHG8C/Screenshot-31.png" alt="Image" width="750px" height="350px" />
       </p>
-      <p align="center">Copy Link Screenshot</p>
 
    3.2 <b>Now paste these screenshot in excel file ([Downlaod Sample Excel File](https://github.com/Dipeshpal/Smart-Attendance-System-using-Tensorflow/blob/master/sv.xlsx))</b>
    
       In this sheet you have to enter Name, Roll Number and Video's Link. It conatains 3 Columns (Name,	Roll Number,	Video).
 
-      <b style="color:red">DO NOT CHANGE ANY COLUMN NAME or DO NOT ADD ANY COLUMN<b>
+      <b style="color:red">DO NOT CHANGE ANY COLUMN NAME or DO NOT ADD ANY COLUMN</b>
 
-      <b>You can add as many rows you want<b>
+      <b>You can add as many rows you want</b>
 
       Refer screenshot below-
 
       <p align="center">
           <img src="https://i.ibb.co/Vmzs9ky/Screenshot-32.png" alt="Image" width="750px" height="350px" />
       </p>
-      <p align="center">Excel Sheet Screenshot</p>
 
-   3.3 Once you create excel sheet now upload it. After uploading you will get button to start training. Just click on "Start Training". Your training will started, it may take some time depending on your video's length (20-30 second video is enough). Once training is done you will get success message. While training you can go to Command Prompt and see the status.
+   3.3 <b>Once you create excel sheet now upload it. After uploading you will get button to start training. Just click on "Start Training". Your training will started, it may take some time depending on your video's length (20-30 second video is enough). Once training is done you will get success message. While training you can go to Command Prompt and see the status.</b>
 
+
+#### How to check / recognize face-
+You can click potos of face and upload it to website manually (If you upload single image at a time then their is less possibility of face detection) or you can directly capture images by using your webcamera (Recommended: Beacuse it capture multiple images at a time which increase possibility of marking attendance by recognize face in images).
+
+1. Just go "Mark Attendance" and submit image or use camera to capture image.
+
+   <p align="center">
+          <img src="https://i.ibb.co/ssy30mC/Screenshot-33.png" alt="Image" width="750px" height="350px" />
+   </p>
 
 If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
     
