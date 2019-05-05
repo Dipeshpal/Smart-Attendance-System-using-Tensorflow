@@ -50,9 +50,9 @@ Once you install these in your machine then just run project.
 #### How to run project?
 Just go to your project root folder "Toto-Smart-Attendance-System". Then change directory to "Toto_Smart_Attendance_System" folder and now open command prompt/Terminal and then run following command-
 
-    ```
-    python manage.py runserver
-    ```
+   ```
+   python manage.py runserver
+   ```
     
 It will start server in your local  machine. Now just hit your local server ip provided by the project in you terminal and just start using project.
     
@@ -100,7 +100,8 @@ To train your own dataset or faces you need to upload excel sheet in this websit
 
    3.3 Once you create excel sheet now upload it. After uploading you will get button to start training. Just click on "Start Training". Your training will started, it may take some time depending on your video's length (20-30 second video is enough). Once training is done you will get success message. While training you can go to Command Prompt and see the status.
 
-  If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
+
+If you want to know backend of Tensorflow used in this project then just [click here](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets/#0)
     
 
 # Features of Smart Attendance System-
