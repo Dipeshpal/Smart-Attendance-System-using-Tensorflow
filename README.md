@@ -67,27 +67,29 @@ To train your own dataset or faces you need to upload excel sheet in this websit
 3. How to create excel sheet?
  
    3.1 <b>Upload some videos to google drive and get links of all the videos (permission: anyone with the link)</b>
-
+      <p>Upload Videos-</p>
       <p align="center">
           <img src="https://i.ibb.co/z85q9M2/Screenshot-29.png" alt="Image" width="750px" height="350px" />
       </p>
       <p align="center">Videos Screenshot</p>
 
+      <p>Set Permission-</p>
       <p align="center">
           <img src="https://i.ibb.co/2Kf48g0/Screenshot-30.png" alt="Image" width="750px" height="350px" />
       </p>
       <p align="center">Permission Screenshot</p>
-
+  
+      <p>Copy links of videos-</p>
       <p align="center">
           <img src="https://i.ibb.co/XJFHG8C/Screenshot-31.png" alt="Image" width="750px" height="350px" />
       </p>
       <p align="center">Copy Link Screenshot</p>
 
    3.2 <b>Now paste these screenshot in excel file ([Downlaod Sample Excel File](https://github.com/Dipeshpal/Smart-Attendance-System-using-Tensorflow/blob/master/sv.xlsx))</b>
-
+   
       In this sheet you have to enter Name, Roll Number and Video's Link. It conatains 3 Columns (Name,	Roll Number,	Video).
 
-      <b>DO NOT CHANGE ANY COLUMN NAME or DO NOT ADD ANY COLUMN<b>
+      <b style="color:red">DO NOT CHANGE ANY COLUMN NAME or DO NOT ADD ANY COLUMN<b>
 
       <b>You can add as many rows you want<b>
 
