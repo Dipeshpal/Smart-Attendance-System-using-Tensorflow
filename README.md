@@ -43,11 +43,11 @@ pip install -r requirements.txt
 You can install all these in your virtual environment or directly in your system interpreter.
 
 
-### How to use this project?
+## How to use this project?
 
 Once you install these in your machine then just run project.
 
-#### How to run project?
+### i.  How to run project-
 Just go to your project root folder "Toto-Smart-Attendance-System". Then change directory to "Toto_Smart_Attendance_System" folder and now open command prompt/Terminal and then run following command-
 
    ```
@@ -58,7 +58,7 @@ It will start server in your local  machine. Now just hit your local server ip p
     
 You may need to create superuser to explore all functionality.
 
-#### How to create your own dataset for image training?
+### ii. How to create your own dataset for image training-
 To train your own dataset or faces you need to upload excel sheet in this website. [You can subl=mit data in various ways but because we don't want to use any physical hardware to submit data or don't want to spent money on anything thats why we will submit excel file to train the model or create our own dataset]
 1. <b>Just run the project and now login as admin (you need to create superuser first).</b>
 2. <b/>Go to cpanel in website and upload excel sheet.</b>
@@ -105,7 +105,7 @@ To train your own dataset or faces you need to upload excel sheet in this websit
    3.3 <b>Once you create excel sheet now upload it. After uploading you will get button to start training. Just click on "Start Training". Your training will started, it may take some time depending on your video's length (20-30 second video is enough). Once training is done you will get success message. While training you can go to Command Prompt and see the status.</b>
 
 
-#### How to check / recognize face-
+### iii. How to check / recognize face-
 You can click potos of face and upload it to website manually (If you upload single image at a time then their is less possibility of face detection) or you can directly capture images by using your webcamera (Recommended: Beacuse it capture multiple images at a time which increase possibility of marking attendance by recognize face in images).
 
 1. Just go "Mark Attendance" and submit image or use camera to capture image.
@@ -115,7 +115,7 @@ You can click potos of face and upload it to website manually (If you upload sin
    </p>
 
 
-#### How to check attendance-
+### iv. How to check attendance-
 Just go to Check Attendance" page and enter roll number to check attendance. If attendance makrked then it will show result.
    <p align="center">
           <img src="https://i.ibb.co/MRFMwmR/Screenshot-34.png" alt="Image" width="750px" height="350px" />
