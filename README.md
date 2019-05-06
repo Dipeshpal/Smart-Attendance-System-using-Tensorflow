@@ -65,7 +65,7 @@ To train your own dataset or faces you need to upload excel sheet in this websit
    
    <p align="center">Cpanel-</p>
       <p align="center">
-          <img src="(https://i.ibb.co/WkMd3jY/m-Screenshot.png" alt="Image" width="750px" height="350px" />
+          <img src="https://i.ibb.co/WkMd3jY/m-Screenshot.png" alt="Image" width="750px" height="350px" />
       </p>
 
 
